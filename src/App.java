@@ -62,5 +62,7 @@ public class App {
         } catch (EOFException ex) {
             ex.printStackTrace();
         }
+
+        socket.close();
     }
 }
