@@ -18,6 +18,7 @@ public class App {
         // establish connection to server
         // start server first
         Socket socket = new Socket(serverHost, Integer.parseInt(serverPort));
+        System.out.println("Connected to: " + socket.getInetAddress());
 
         // setup console input from keyboard
         // variable to save keyboard input
